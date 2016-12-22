@@ -1,0 +1,14 @@
+[package]
+name = "must-sleep"
+version = "0.1.0"
+authors = [
+    "jpepin <jpepin@student.42.fr>"
+]
+repository = "https://github.com/Arukana/Must-sleep.git"
+readme = "README.md"
+keywords = ["must", "sleep", "neko", "module"]
+license = "GPL-3.0"
+
+[dependencies.libc]
+version = "0.2"
+default-features = false
